@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <nav
+  role="navigation"
+  class="flex justify-between items-center h-16
+  bg-gradient-to-r from-purple-400 to-purple-500 text-white relative">
+
+    <a href="index.html" class="pl-6">New Order</a>
+    <div class="px-4 cursor-pointer md:hidden" id="bars">
+      <svg
+      class="w-6 h-6"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg">
+      <path stroke-linecap="round"
+       stroke-linejoin="round"
+       stroke-width="2"
+       d="M4 6h16M4 12h16M4 18h16"></path>
+     </svg>
+   </div>
+   <div class="hidden md:block" id="menu">
+    <a href="index.html" class="p-4">Home</a>
+    <a href="index.html" class="p-4">About</a>
+    <a href="index.html" class="p-4">Contact</a>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <div
+  class="bg-no-repeat h-screen bg-center bg-cover center"
+  style= "background-image: url('../img/purp.jpg')">
+<div class="text-center font-bold">
+<h1 class="lg:text-9xl sm:text-6xl text-4xl mb-10 text-purple-200 duration-200">
+  Discover Beyond Reality
+</h1>
+<button class="p-3 my-3 mx-2 rounded border-2 border-purple-300
+ hover:border-purple-100 hover:text-white text-purple-200 font-bold">
+  Explore
+</button>
+  <script src="main.js"></script>
+</body>
+</html>
